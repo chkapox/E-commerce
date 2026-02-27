@@ -36,3 +36,16 @@ huggingface/
 # IDE
 .idea/
 .vscode/
+
+data/raw/
+data/images/
+outputs/predictions/
+outputs/lora_adapter/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+outputs/predictions/
+outputs/lora_adapter/
+outputs/**/checkpoint*

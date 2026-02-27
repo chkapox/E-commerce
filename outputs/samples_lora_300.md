@@ -2,250 +2,250 @@
 ## 1
 - image_path: `data/raw/images/57026.jpg`
 - reference: Men Olive Briefs (Casual)
-- prediction: a picture of a men ' s underwear in olive green
+- prediction: men green briefs and bodysuits person, person, person, person, person, person, person, person, person, person, person
 
 ## 2
 - image_path: `data/raw/images/19606.jpg`
 - reference: Women Green Tops (Casual)
-- prediction: a woman in a green shirt with the word benton on it
+- prediction: women teal tshirts amp amp amp & personaliza
 
 ## 3
 - image_path: `data/raw/images/15070.jpg`
 - reference: Men Brown Sandals (Casual)
-- prediction: men ' s leather flip flops
+- prediction: men brown casual flip flops
 
 ## 4
 - image_path: `data/raw/images/3434.jpg`
 - reference: Men Black Tshirts (Casual)
-- prediction: a man wearing a black t - shirt with white writing on it
+- prediction: men black tshirts _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ design _ _ _ _ _ _
 
 ## 5
 - image_path: `data/raw/images/39682.jpg`
 - reference: Men White Sports Shoes (Sports)
-- prediction: sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk sk
+- prediction: unisex white sports shoes amp amp
 
 ## 6
 - image_path: `data/raw/images/12619.jpg`
 - reference: Men Grey Tshirts (Casual)
-- prediction: a man wearing a grey tank top with blue writing on it
+- prediction: men grey tshirts & b & amp online person person ' s person ' person ' person ' person
 
 ## 7
 - image_path: `data/raw/images/14762.jpg`
 - reference: Men Blue Shirts (Formal)
-- prediction: a blue and white check shirt
+- prediction: men navy blue shirts
 
 ## 8
 - image_path: `data/raw/images/16535.jpg`
 - reference: Women Grey Caps (Casual)
-- prediction: a picture of a grey and white plaid bucket hat
+- prediction: unisex grey caps amp amp
 
 ## 9
 - image_path: `data/raw/images/9949.jpg`
 - reference: Men Blue Tshirts (Sports)
-- prediction: a man wearing a blue shirt and jeans
+- prediction: men blue tshirts amp amp amp online fitness fitness fitness
 
 ## 10
 - image_path: `data/raw/images/4544.jpg`
 - reference: Men Black Sports Shoes (Sports)
-- prediction: nike boys black & orange running shoes
+- prediction: men black sports shoes amp amp
 
 ## 11
 - image_path: `data/raw/images/17331.jpg`
 - reference: Men Black Sunglasses (Casual)
-- prediction: ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray ray
+- prediction: unisex black sunglasses dolce
 
 ## 12
 - image_path: `data/raw/images/44902.jpg`
 - reference: Men Black Shorts (Casual)
-- prediction: a man in a green shirt and black shorts
+- prediction: men black sports shorts nutrition nutrition nutrition fitness fitness fitness fitness fitness nutrition nutrition nutrition nutrition fitness
 
 ## 13
 - image_path: `data/raw/images/56261.jpg`
 - reference: Men Navy Blue Night suits (Casual)
-- prediction: a man wearing a grey t - shirt and black shorts
+- prediction: men navy blue pyjamas amp amp amp amp amp amp amp & amp online person the person
 
 ## 14
 - image_path: `data/raw/images/56295.jpg`
 - reference: Women Purple Bra (Casual)
-- prediction: a woman wearing a purple bra with a black bra bra bra bra bra bra bra bra bra bra bra bra
+- prediction: women purple lingers & bodysuits & bodysuits single - online
 
 ## 15
 - image_path: `data/raw/images/51497.jpg`
 - reference: Women Navy Blue Jeans (Casual)
-- prediction: a woman wearing black jeans and a striped shirt
+- prediction: women black jeansdillya real
 
 ## 16
 - image_path: `data/raw/images/3608.jpg`
 - reference: Unisex Red Casual Shoes (Casual)
-- prediction: converse high top sneaker
+- prediction: unisex red casual shoes
 
 ## 17
 - image_path: `data/raw/images/14283.jpg`
 - reference: Women Brown Casual Shoes (Casual)
-- prediction: a brown shoe with a wooden heel and lace detailing
+- prediction: women brown casual shoesdillya
 
 ## 18
 - image_path: `data/raw/images/36698.jpg`
 - reference: Men Grey Perfume and Body Mist (Casual)
-- prediction: a bottle of white nail polish with a silver cap
+- prediction: men white perfume and body mist
 
 ## 19
 - image_path: `data/raw/images/28229.jpg`
 - reference: Men Blue Deodorant (Casual)
-- prediction: a bottle of cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne cologne
+- prediction: men blue perfume and body miste
 
 ## 20
 - image_path: `data/raw/images/47516.jpg`
 - reference: Men Grey Briefs (Casual)
-- prediction: a man wearing a grey underwear with a red waistband
+- prediction: men grey briefs & modis
 
 ## 21
 - image_path: `data/raw/images/18273.jpg`
 - reference: Women Blue Kurtas (Ethnic)
-- prediction: a woman wearing a blue tunic top with a floral pattern
+- prediction: women blue kurtas amp amp amp
 
 ## 22
 - image_path: `data/raw/images/2880.jpg`
 - reference: Women Grey Heels (Formal)
-- prediction: a photo of a pair of black leather mules
+- prediction: women black heels amp amp
 
 ## 23
 - image_path: `data/raw/images/29041.jpg`
 - reference: Men Navy Blue Track Pants (Sports)
-- prediction: a man in a grey shirt and blue pants
+- prediction: men navy blue track pants
 
 ## 24
 - image_path: `data/raw/images/55921.jpg`
 - reference: Women Brown Nail Polish (Casual)
-- prediction: a bottle of nail polish in dark brown
+- prediction: women brown nail polish
 
 ## 25
 - image_path: `data/raw/images/11896.jpg`
 - reference: Men Black Formal Shoes (Formal)
-- prediction: men ' s black leather shoes with laces
+- prediction: men black casual shoesdillya
 
 ## 26
 - image_path: `data/raw/images/44411.jpg`
 - reference: Men Brown Casual Shoes (Casual)
-- prediction: men ' s brown leather slip on loaf
+- prediction: men brown casual shoesdillya
 
 ## 27
 - image_path: `data/raw/images/48185.jpg`
 - reference: Women Beige Handbags (Casual)
-- prediction: michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael michael
+- prediction: women beige handbags amp amp amp amp amp
 
 ## 28
 - image_path: `data/raw/images/12162.jpg`
 - reference: Women Green Leggings (Ethnic)
-- prediction: a woman in a white shirt and blue pants
+- prediction: women blue leggings nutrition fitness
 
 ## 29
 - image_path: `data/raw/images/17424.jpg`
 - reference: Men White Watches (Casual)
-- prediction: casio men ' s watch with white dial
+- prediction: unisex silver watches & amp amp amp online fitness fitness fitness fitness fitness fitness fitness fitness
 
 ## 30
 - image_path: `data/raw/images/14920.jpg`
 - reference: Men Grey Tshirts (Casual)
-- prediction: a man wearing a grey sweatshirt with a skull on it
+- prediction: men grey tshirts & bhirts person digital digital person digital person
 
 ## 31
 - image_path: `data/raw/images/34176.jpg`
 - reference: Boys White Tshirts (Casual)
-- prediction: a white polo shirt with the number 3 on it
+- prediction: boys white tshirts & vests person person person person person person person person person person person person person
 
 ## 32
 - image_path: `data/raw/images/35656.jpg`
 - reference: Men Navy Blue Casual Shoes (Casual)
-- prediction: a pair of black shoes with white laces
+- prediction: unisex navy blue casual shoes
 
 ## 33
 - image_path: `data/raw/images/22476.jpg`
 - reference: Men Blue Tshirts (Casual)
-- prediction: a man wearing a blue polo shirt
+- prediction: men navy blue tshirts amp amp
 
 ## 34
 - image_path: `data/raw/images/25110.jpg`
 - reference: Women Olive Belts (Casual)
-- prediction: a black braided leather belt with a silver buckle
+- prediction: men black belts person person person
 
 ## 35
 - image_path: `data/raw/images/29012.jpg`
 - reference: Men Red Tshirts (Casual)
-- prediction: a man wearing a red, white and blue polo shirt
+- prediction: men red tshirts amp amp amp digital media fitness fitness
 
 ## 36
 - image_path: `data/raw/images/15766.jpg`
 - reference: Men Charcoal Innerwear Vests (Casual)
-- prediction: a man wearing a grey tank top and black shorts
+- prediction: men grey tshirts _ _ _ _ _ _ _ _ _ _ _ design _ _ _ _ _ _ _ _ _ _ _
 
 ## 37
 - image_path: `data/raw/images/43753.jpg`
 - reference: Women Gold Bangle (Casual)
-- prediction: a pair of gold toned rings with brown and white crystals
+- prediction: women gold bangles & amp
 
 ## 38
 - image_path: `data/raw/images/27300.jpg`
 - reference: Women Purple Kurtas (Ethnic)
-- prediction: a woman wearing a purple and green tunic top
+- prediction: women purple kurtas amp amp amp
 
 ## 39
 - image_path: `data/raw/images/56043.jpg`
 - reference: Women Purple Lipstick (Casual)
-- prediction: a lipstick with a lipstick stick in the middle
+- prediction: women pink lipstick and body care product
 
 ## 40
 - image_path: `data/raw/images/16233.jpg`
 - reference: Men Grey Sweatshirts (Casual)
-- prediction: a man wearing a grey sweatshirt and jeans
+- prediction: men grey sweatshirts & jumpers person person person person
 
 ## 41
 - image_path: `data/raw/images/36205.jpg`
 - reference: Boys White Shirts (Casual)
-- prediction: a white short sleeved shirt with a logo on the chest
+- prediction: unisex white tshirts & vests nutrition nutrition nutrition nutrition nutrition nutrition
 
 ## 42
 - image_path: `data/raw/images/2494.jpg`
 - reference: Men White Flip Flops (Casual)
-- prediction: a pair of white and black flip flops on a white background
+- prediction: men white flip - flops & amps person person person person person person person
 
 ## 43
 - image_path: `data/raw/images/4087.jpg`
 - reference: Men White Tshirts (Casual)
-- prediction: a man wearing a striped polo shirt
+- prediction: men white tshirts amp amp amp amp amp & digital media
 
 ## 44
 - image_path: `data/raw/images/10378.jpg`
 - reference: Men Black Tshirts (Casual)
-- prediction: a man wearing a black t - shirt and jeans
+- prediction: men black tshirts amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp amp
 
 ## 45
 - image_path: `data/raw/images/34555.jpg`
 - reference: Women Blue Handbags (Casual)
-- prediction: a blue handbag with a black leather handle
+- prediction: unisex blue handbags amp amp
 
 ## 46
 - image_path: `data/raw/images/45712.jpg`
 - reference: Men Blue Perfume and Body Mist (Casual)
-- prediction: a bottle of perfume with a white background
+- prediction: men blue perfume and body mist
 
 ## 47
 - image_path: `data/raw/images/52503.jpg`
 - reference: Women Cream Bath Robe (Casual)
-- prediction: a woman wearing a white dress with pink flowers on it
+- prediction: women white kurtas _ _ _ _ _ _ _ _ _ _ _ _ design _ _ _ _ _ _ _ _ _ _ _
 
 ## 48
 - image_path: `data/raw/images/43478.jpg`
 - reference: Men Brown Casual Shoes (Casual)
-- prediction: men ' s leather slip on shoes
+- prediction: unisex brown casual shoes
 
 ## 49
 - image_path: `data/raw/images/55491.jpg`
 - reference: Women Brown Lip Gloss (Casual)
-- prediction: reva liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid liquid
+- prediction: women brown lip glosses & body mist & waterproof & body mist & waterproof
 
 ## 50
 - image_path: `data/raw/images/13611.jpg`
 - reference: Men White Innerwear Vests (Casual)
-- prediction: a man in a white shirt and black shorts
+- prediction: men white tshirts & vests person person person person person person
 

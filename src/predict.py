@@ -42,11 +42,12 @@ def main():
         default="outputs/predictions/preds.jsonl",
         help="Where to save predictions (only for --jsonl mode)",
     )
+    parser.add_argument("--adapter", default=None, help="Path to LoRA adapter dir (outputs/lora_adapter)")
 
     args = parser.parse_args()
 
-    captioner = BlipCaptioner(args.model)
-
+    captioner = BlipCaptioner(args.model, adapter_path=args.adapter)
+    
     # Single image mode
     if args.image:
         img_path = Path(args.image)

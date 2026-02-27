@@ -6,14 +6,17 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 
 from .config import pick_device
 
+from peft import PeftModel
 
 class BlipCaptioner:
-    def __init__(self, model_name: str):
+    def __init__(self, model_name: str, adapter_path: str | None = None):
         self.model_name = model_name
         self.device, self.amp_dtype = pick_device()
 
         self.processor = BlipProcessor.from_pretrained(model_name)
-        self.model = BlipForConditionalGeneration.from_pretrained(model_name)
+        self.model = BlipForConditionalGeneration.from_pretrained(model_name, use_safetensors=True)
+        if adapter_path:
+            self.model = PeftModel.from_pretrained(self.model, adapter_path)
         self.model.to(self.device)
         self.model.eval()
 
