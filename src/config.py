@@ -11,3 +11,4 @@ def pick_device() -> tuple[str, torch.dtype]:
 
 
 DEFAULT_MODEL_NAME = "Salesforce/blip-image-captioning-base"
+DEFAULT_PRODUCT_PROMPT = None

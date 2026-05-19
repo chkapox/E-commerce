@@ -1,0 +1,63 @@
+{
+  "sacrebleu": 38.65307376288038,
+  "rouge1": 0.6610184583433428,
+  "rouge2": 0.3728079668869141,
+  "rougeL": 0.6616609085359089,
+  "rougeLsum": 0.6624872864278826,
+  "token_precision": 0.6679380743525482,
+  "token_recall": 0.6747102130325814,
+  "token_f1": 0.6625942222981704,
+  "color_recall": 0.3904109589041096,
+  "color_eval_n": 292,
+  "product_type_recall": 0.7625570776255708,
+  "product_type_eval_n": 219,
+  "avg_pred_words": 4.059210526315789,
+  "avg_ref_words": 3.9934210526315788,
+  "avg_pred_sentences": 1.0,
+  "label_like_rate": 0.40131578947368424,
+  "generic_fallback_rate": 0.08223684210526316,
+  "unique_prediction_ratio": 0.5,
+  "top_predictions": [
+    [
+      "a product",
+      25
+    ],
+    [
+      "a white t-shirt",
+      24
+    ],
+    [
+      "a pair of white casual shoes",
+      12
+    ],
+    [
+      "a blue t-shirt",
+      11
+    ],
+    [
+      "a pair of white sports shoes",
+      10
+    ],
+    [
+      "a pair of white sunglasses",
+      7
+    ],
+    [
+      "a black t-shirt",
+      6
+    ],
+    [
+      "a white handbag",
+      6
+    ],
+    [
+      "a black handbag",
+      5
+    ],
+    [
+      "a white innerwear vest",
+      5
+    ]
+  ],
+  "n": 304
+}

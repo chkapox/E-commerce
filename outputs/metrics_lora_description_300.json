@@ -1,0 +1,63 @@
+{
+  "sacrebleu": 10.550820549239441,
+  "rouge1": 0.3675067916876199,
+  "rouge2": 0.21062240298958623,
+  "rougeL": 0.363250089393284,
+  "rougeLsum": 0.36337284578783224,
+  "token_precision": 0.6399631892230588,
+  "token_recall": 0.3296832690335975,
+  "token_f1": 0.4305838848364559,
+  "color_recall": 0.0,
+  "color_eval_n": 292,
+  "product_type_recall": 0.7377049180327869,
+  "product_type_eval_n": 61,
+  "avg_pred_words": 9.203947368421053,
+  "avg_ref_words": 12.095394736842104,
+  "avg_pred_sentences": 1.0,
+  "label_like_rate": 0.03289473684210526,
+  "generic_fallback_rate": 0.0,
+  "unique_prediction_ratio": 0.29605263157894735,
+  "top_predictions": [
+    [
+      "the loungewear and nightwear category within apparel the loungewear category",
+      104
+    ],
+    [
+      "the shoe category within footwear the shoe category within footwear",
+      17
+    ],
+    [
+      "the fragrance category within personal care the personal care category",
+      15
+    ],
+    [
+      "the shoe category within footwear the shoes category within footwear",
+      14
+    ],
+    [
+      "the free gifts category within free items person",
+      9
+    ],
+    [
+      "the loungewear and nightwear category within apparel the loungewear category within apparel",
+      8
+    ],
+    [
+      "the innerwear category within apparel the innerwear category",
+      8
+    ],
+    [
+      "the apparel category within apparel the loungewear and nightwear category",
+      6
+    ],
+    [
+      "the shoe category within footwear the shoe category within category within footwear",
+      5
+    ],
+    [
+      "the ecommer category within apparel person",
+      4
+    ]
+  ],
+  "n": 304
+}

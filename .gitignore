@@ -13,6 +13,7 @@ venv/
 *.pt
 *.pth
 *.ckpt
+*.safetensors
 models/
 checkpoints/
 weights/
@@ -37,15 +38,14 @@ huggingface/
 .idea/
 .vscode/
 
-data/raw/
-data/images/
+# Project generated bulky artifacts
+*.zip
 outputs/predictions/
-outputs/lora_adapter/
-venv/
-.venv/
-__pycache__/
-*.pyc
-
-outputs/predictions/
-outputs/lora_adapter/
+outputs/*adapter*/
 outputs/**/checkpoint*
+
+# Local handoff / coursework reference files
+handoff.md
+TD-2.pdf
+CP_Karapetyan.pdf
+papers/

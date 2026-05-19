@@ -1,0 +1,63 @@
+{
+  "sacrebleu": 5.819806028820152,
+  "rouge1": 0.36170979057492214,
+  "rouge2": 0.1871788847117793,
+  "rougeL": 0.3598195298853194,
+  "rougeLsum": 0.3604986661730085,
+  "token_precision": 0.4289199561403511,
+  "token_recall": 0.3416275062656639,
+  "token_f1": 0.36521037442090093,
+  "color_recall": 0.3904109589041096,
+  "color_eval_n": 292,
+  "product_type_recall": null,
+  "product_type_eval_n": 0,
+  "avg_pred_words": 3.4802631578947367,
+  "avg_ref_words": 3.9934210526315788,
+  "avg_pred_sentences": 1.0,
+  "label_like_rate": 1.0,
+  "generic_fallback_rate": 0.0,
+  "unique_prediction_ratio": 0.6776315789473685,
+  "top_predictions": [
+    [
+      "white t-shirt",
+      17
+    ],
+    [
+      "white casual shoes",
+      8
+    ],
+    [
+      "meena ' s",
+      8
+    ],
+    [
+      "blue t-shirt",
+      6
+    ],
+    [
+      "me and me",
+      6
+    ],
+    [
+      "white sports shoes",
+      5
+    ],
+    [
+      "blue jeans",
+      5
+    ],
+    [
+      "white t-shirt the consp",
+      5
+    ],
+    [
+      "white innerwear vests",
+      4
+    ],
+    [
+      "white sunglasses",
+      4
+    ]
+  ],
+  "n": 304
+}
