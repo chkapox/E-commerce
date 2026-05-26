@@ -7,7 +7,7 @@ import torch
 from PIL import Image, ImageFile
 from transformers import BlipProcessor, BlipForConditionalGeneration
 
-from .config import DEFAULT_PRODUCT_PROMPT, pick_device
+from .config import DEFAULT_PRODUCT_PROMPT, configure_hf_offline_mode, pick_device
 
 from peft import PeftModel
 
@@ -62,10 +62,12 @@ def clean_generation_artifacts(text: str) -> str:
 
 class BlipCaptioner:
     def __init__(self, model_name: str, adapter_path: str | None = None, local_files_only: bool = False):
+        if local_files_only:
+            configure_hf_offline_mode()
         self.model_name = model_name
         self.device, self.amp_dtype = pick_device()
 
-        self.processor = BlipProcessor.from_pretrained(model_name, local_files_only=local_files_only)
+        self.processor = BlipProcessor.from_pretrained(model_name, local_files_only=local_files_only, use_fast=False)
         try:
             self.model = BlipForConditionalGeneration.from_pretrained(
                 model_name,
@@ -92,6 +94,7 @@ class BlipCaptioner:
         prompt: str | Sequence[str] | None = DEFAULT_PRODUCT_PROMPT,
         no_repeat_ngram_size: int = 3,
         repetition_penalty: float = 1.15,
+        clean_output: bool = True,
     ) -> str:
         return self.caption_batch(
             [image_path],
@@ -100,6 +103,7 @@ class BlipCaptioner:
             prompt=prompt,
             no_repeat_ngram_size=no_repeat_ngram_size,
             repetition_penalty=repetition_penalty,
+            clean_output=clean_output,
         )[0]
 
     @torch.no_grad()
@@ -111,6 +115,7 @@ class BlipCaptioner:
         prompt: str | Sequence[str] | None = DEFAULT_PRODUCT_PROMPT,
         no_repeat_ngram_size: int = 3,
         repetition_penalty: float = 1.15,
+        clean_output: bool = True,
     ) -> list[str]:
         if not image_paths:
             return []
@@ -147,6 +152,8 @@ class BlipCaptioner:
             )
 
         decoded = self.processor.batch_decode(out, skip_special_tokens=True)
+        if not clean_output:
+            return [" ".join(text.split()).strip() for text in decoded]
         return [
             clean_generation_artifacts(strip_prompt_echo(text, prompt_for_index(prompt, idx)))
             for idx, text in enumerate(decoded)

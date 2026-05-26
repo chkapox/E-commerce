@@ -29,6 +29,7 @@ wandb/
 
 # HF cache
 .cache/
+.hf_cache/
 huggingface/
 
 # macOS
@@ -40,12 +41,33 @@ huggingface/
 
 # Project generated bulky artifacts
 *.zip
-outputs/predictions/
-outputs/*adapter*/
-outputs/**/checkpoint*
+outputs/*
+
+# Runtime adapters used by the final BLIP + OCR + FLAN-T5 v3 pipeline
+!outputs/lora_adapter_description_v2/
+outputs/lora_adapter_description_v2/*
+!outputs/lora_adapter_description_v2/adapter_config.json
+!outputs/lora_adapter_description_v2/adapter_model.safetensors
+!outputs/lora_adapter_description_v2/processor_config.json
+!outputs/lora_adapter_description_v2/tokenizer.json
+!outputs/lora_adapter_description_v2/tokenizer_config.json
+!outputs/lora_adapter_description_v2/training_args.json
+!outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/
+outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/*
+!outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/adapter_config.json
+!outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/adapter_model.safetensors
+!outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/tokenizer.json
+!outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/tokenizer_config.json
+!outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/training_args.json
 
 # Local handoff / coursework reference files
 handoff.md
+PROJECT_DEMO_HANDOFF.md
+final report/
 TD-2.pdf
 CP_Karapetyan.pdf
 papers/
+
+# Local browser profiles created while printing report previews
+/.chrome-*/
+/.edge-*/

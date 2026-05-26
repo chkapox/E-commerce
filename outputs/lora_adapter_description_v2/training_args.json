@@ -1,0 +1,23 @@
+{
+  "train_jsonl": "data/train.jsonl",
+  "val_jsonl": "data/val.jsonl",
+  "model": "Salesforce/blip-image-captioning-base",
+  "out_dir": "outputs/lora_adapter_description_v2",
+  "batch_size": 8,
+  "grad_accum": 4,
+  "epochs": 3,
+  "lr": 0.0002,
+  "warmup_steps": 200,
+  "max_train_steps": 2000,
+  "max_length": 64,
+  "num_workers": 4,
+  "log_every": 25,
+  "eval_steps": 0,
+  "max_grad_norm": 1.0,
+  "seed": 42,
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "train_size": 35534,
+  "val_size": 4442,
+  "optimizer_steps_completed": 2000
+}

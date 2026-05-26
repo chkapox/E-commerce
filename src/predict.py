@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, Dict, Iterable, List, TextIO, Tuple
 
-from .config import DEFAULT_MODEL_NAME, DEFAULT_PRODUCT_PROMPT
+from .config import DEFAULT_MODEL_NAME, DEFAULT_PRODUCT_PROMPT, configure_hf_offline_mode, configure_project_hf_cache
 from .description_builder import build_description_from_model_text, build_product_description
 
 if TYPE_CHECKING:
@@ -50,6 +50,7 @@ def flush_pending(
         prompt=generation_prompt,
         no_repeat_ngram_size=no_repeat_ngram_size,
         repetition_penalty=repetition_penalty,
+        clean_output=description_mode != "raw",
     )
     for row, pred in zip(rows, predictions):
         if description_mode == "hybrid":
@@ -70,6 +71,7 @@ def flush_pending(
 
 
 def main():
+    configure_project_hf_cache()
     parser = argparse.ArgumentParser()
 
     group = parser.add_mutually_exclusive_group(required=True)
@@ -124,6 +126,8 @@ def main():
     needs_captioner = bool(args.image) or args.description_mode in {"model", "hybrid", "raw"}
     captioner = None
     if needs_captioner:
+        if args.local_files_only:
+            configure_hf_offline_mode()
         from .model_wrapper import BlipCaptioner
 
         captioner = BlipCaptioner(args.model, adapter_path=args.adapter, local_files_only=args.local_files_only)
@@ -142,6 +146,7 @@ def main():
             prompt=args.prompt,
             no_repeat_ngram_size=args.no_repeat_ngram_size,
             repetition_penalty=args.repetition_penalty,
+            clean_output=args.description_mode != "raw",
         )
         print(text if args.description_mode == "raw" else build_description_from_model_text(text))
         return

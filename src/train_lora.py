@@ -9,7 +9,7 @@ from typing import Any, Dict
 import torch
 from torch.utils.data import DataLoader
 
-from .config import DEFAULT_MODEL_NAME, pick_device
+from .config import DEFAULT_MODEL_NAME, configure_project_hf_cache, pick_device
 from .dataset import ProductCaptionDataset, load_image_rgb
 
 class BlipCollator:
@@ -87,6 +87,7 @@ def evaluate_loss(
 
 
 def main():
+    configure_project_hf_cache()
     parser = argparse.ArgumentParser()
     parser.add_argument("--train_jsonl", default="data/train.jsonl")
     parser.add_argument("--val_jsonl", default="data/val.jsonl")
@@ -122,7 +123,7 @@ def main():
     from peft import LoraConfig, PeftModel, get_peft_model
     from transformers import BlipForConditionalGeneration, BlipProcessor, get_cosine_schedule_with_warmup
 
-    processor = BlipProcessor.from_pretrained(args.model)
+    processor = BlipProcessor.from_pretrained(args.model, use_fast=False)
     try:
         model = BlipForConditionalGeneration.from_pretrained(args.model, use_safetensors=True)
     except OSError:
