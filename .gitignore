@@ -60,6 +60,17 @@ outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/*
 !outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/tokenizer_config.json
 !outputs/text_writer_flan_t5_base_lora_neural_marketplace_v3/training_args.json
 
+# Evaluation artifacts referenced in the final report
+!outputs/predictions/
+outputs/predictions/*
+!outputs/predictions/val_neural_marketplace_v3_200.jsonl
+!outputs/predictions/test_neural_marketplace_v3_full.jsonl
+!outputs/predictions/test_flan_t5_base_unadapted_full.jsonl
+!outputs/neural_v3_test_vs_val_200.md
+!outputs/neural_v3_test_full_vs_200.md
+!outputs/neural_v3_vs_unadapted_base_full.json
+!outputs/neural_v3_vs_unadapted_base_full.md
+
 # Local handoff / coursework reference files
 handoff.md
 PROJECT_DEMO_HANDOFF.md
